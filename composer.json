@@ -17,12 +17,5 @@
         "psr-4": {
             "App\\": "app/"
         }
-    },
-    "scripts": {
-        "dev-install": [ "bash setup_phpcs.sh" ],
-        "post-install-cmd": [
-            "php artisan migrate --env testing --database=testing --force",
-            "php artisan migrate"
-        ]
     }
 }
